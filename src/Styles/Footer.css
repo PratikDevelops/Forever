@@ -1,0 +1,135 @@
+.footer-container {
+  background-color: #f4f4f4; 
+  color: #333; 
+  
+  padding: 20px 0; 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  margin: 25px auto;
+}
+
+.footer-logo-section {
+  flex: 1 1 100%;
+  text-align: center;
+  margin-bottom: 10px; 
+}
+
+.footer-logo {
+  width: 150px;
+  margin-bottom: 10px;
+}
+
+.footer-links-section,
+.footer-contact-section,
+.footer-social-section {
+  flex: 1 1 30%;
+  margin-bottom: 10px; 
+  text-align: center;
+}
+
+.footer-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.footer-links,
+.footer-contact {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-links li,
+.footer-contact li {
+  margin: 5px 0;
+}
+
+.footer-social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.social-icon {
+  font-size: 24px;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+  color: #1e90ff;
+}
+
+.footer-copyright-section {
+  flex: 1 1 100%;
+  text-align: center;
+  margin-top: 10px; 
+  font-size: 14px;
+}
+
+/* Media Queries for Responsiveness */
+
+/* For smaller screens (Mobile view) */
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    padding: 15px 0;
+  }
+
+  .footer-logo-section {
+    margin-bottom: 20px;
+  }
+
+  .footer-links-section,
+  .footer-contact-section,
+  .footer-social-section {
+    flex: 1 1 100%;
+    margin-bottom: 15px;
+  }
+
+  .footer-title {
+    font-size: 16px;
+  }
+
+  .footer-logo {
+    width: 120px;
+  }
+
+  .social-icon {
+    font-size: 20px;
+  }
+}
+
+/* For even smaller screens (Extra small devices) */
+@media (max-width: 480px) {
+  .footer-container {
+    padding: 10px 0;
+  }
+
+  .footer-logo-section {
+    margin-bottom: 10px;
+  }
+
+  .footer-logo {
+    width: 100px;
+  }
+
+  .footer-title {
+    font-size: 14px;
+  }
+
+  .footer-links li,
+  .footer-contact li {
+    font-size: 14px;
+  }
+
+  .footer-copyright-section {
+    font-size: 12px;
+  }
+
+  .social-icon {
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,96 @@
+.search-bar-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 17vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; 
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 30px;
+  width: 80%;
+  max-width: 500px;
+}
+
+.input-container input {
+  width: 100%;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 20px;
+  outline: none;
+}
+
+.input-container input::placeholder {
+  color: #aaa;
+}
+
+.input-container img {
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+}
+
+.close-icon {
+  position: absolute;
+  top: 45px;
+  right: 435px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  z-index: 1001; /* Ensure the close icon is on top */
+}
+
+.close-icon:hover {
+  opacity: 0.7;
+}
+
+@media (max-width: 768px) {
+  .input-container {
+    width: 90%;
+    padding: 8px 15px;
+  }
+
+  .input-container input {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  /* Adjust close icon for mobile */
+  .close-icon {
+    top: 15px;  /* Adjust the position for mobile */
+    right: 15px; /* Adjust the position for mobile */
+    width: 25px;
+    height: 25px;
+  }
+}
+
+.search-section {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.search-section button {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.search-section input {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  width: 200px;
+}

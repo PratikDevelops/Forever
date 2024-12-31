@@ -1,0 +1,41 @@
+.latest-collection {
+    width: 100%;
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f8f9fa;
+    margin-bottom: 40px;
+    box-sizing: border-box;
+  }
+  
+  .latest-collection h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .collection-info {
+    font-size: 1.1rem;
+    color: #555;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+  
+  .collection-info p {
+    margin-top: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .latest-collection {
+      padding: 30px 15px;
+    }
+  
+    .latest-collection h1 {
+      font-size: 2rem;
+    }
+  
+    .collection-info {
+      font-size: 1rem;
+    }
+  }
+  
