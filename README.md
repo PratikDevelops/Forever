@@ -1,21 +1,21 @@
 
 
 ```markdown
-# Forever
+## Forever
 
-**Forever** is an elegant e-commerce platform offering a seamless shopping experience with a wide range of products. Shop with ease, add items to your cart, and enjoy secure transactions.
+Forever is an elegant e-commerce platform offering a seamless shopping experience with a wide range of products. Shop with ease, add items to your cart, and enjoy secure transactions.
 
 ## Features
 
-- **User-Friendly Interface**: Simple and intuitive design for easy navigation.
-- **Product Catalog**: Browse products by categories or search for specific items.
-- **Wishlist and Cart**: Save your favorite items or add them to the cart.
-- **Responsive Design**: Optimized for desktop, tablet, and mobile devices.
+- User-Friendly Interface: Simple and intuitive design for easy navigation.
+- Product Catalog: Browse products by categories or search for specific items.
+- Wishlist and Cart: Save your favorite items or add them to the cart.
+- Responsive Design: Optimized for desktop, tablet, and mobile devices.
 
 ## Technologies Used
 
-- **Frontend**: HTML, CSS, JavaScript, React.js
-- **Version Control**: Git
+- Frontend: HTML, CSS, JavaScript, React.js
+- Version Control: Git
 
 ## Installation
 
